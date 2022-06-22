@@ -3,11 +3,11 @@
 :root {
   --black: #1f1f1f;
   --white: #fff;
-  --yellow: #ffc554;
-  --deep-yellow: #ffc727;
-  --bg-yellow: #fffaf1;
-  --btn-yellow: #fff4d4;
-  --footer-yellow: #fff9e9;
+  --yellow: #f27024;
+  --deep-yellow: #f0691a;
+  --bg-yellow: #fcece1;
+  --btn-yellow: #fcece1;
+  --footer-yellow: #fcece1;
   --grey: #737373;
   --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   --transition: all 0.2s linear;
