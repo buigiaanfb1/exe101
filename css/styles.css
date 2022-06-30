@@ -445,8 +445,8 @@ section.app .content .links img {
 
 .footer .top .links {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
 }
 
 .footer .bottom {
@@ -567,4 +567,88 @@ section.app .content .links img {
 
 .scroll-top.show {
   display: block;
+}
+
+.container_chatbox {
+  cursor: pointer;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 1rem;
+  background-color: var(--yellow);
+  transition: all 0.5s;
+  border-radius: 100%;
+}
+.container_chatbox:hover {
+  background-color: #618fdd;
+  transition: all 0.5s;
+}
+
+.container_chatbox:hover img {
+  transform: rotate(-15deg);
+  transition: all 0.5s;
+}
+
+
+.chatbox_body {
+  display: none !important;
+  z-index: 999999;
+  position: fixed;
+  bottom: 10rem;
+  right: 2rem;
+  height: 35vw;
+  width: 30vw;
+  box-shadow: 3px 3px 5px #888888;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.chatbox_body_open {
+  display: block !important;
+
+}
+
+.container_chatbox_header {
+  color: #fff;
+  font-weight: 400;
+  padding: 2rem;
+  height: 27%;
+  background-color: var(--yellow);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.container_chatbox_header p {
+  margin-top: 0.5rem;
+}
+
+.container_chatbox_body {
+  background-color: #fff;
+  padding: 2rem;
+  height: 60%;
+}
+
+.container_chatbox_footer {
+  border-top: 1px solid black;
+  background-color: #fff;
+  padding: 1rem;
+  height: 13%;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.container_chatbox_footer input {
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    outline: none;
+}
+
+.container_chatbox_body p {
+  padding: 0.75rem 1.5rem;
+  background-color: rgb(200, 200, 200);
+  border-radius: 25px;
+  display: inline-block;
+
 }
